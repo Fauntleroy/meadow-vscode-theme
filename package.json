@@ -1,0 +1,21 @@
+{
+    "name": "meadow-color-theme",
+    "displayName": "Meadow Color Theme",
+    "description": "A color theme based off of Meadow's brand colors.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Meadow",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Meadow-color-theme.json"
+            }
+        ]
+    }
+}
